@@ -1,0 +1,66 @@
+/home/vanyusha/miniconda3/bin/quast spades_scaffolds.fasta -o quast_out
+
+Version: 5.3.0
+
+System information:
+  OS: Linux-6.17.0-19-generic-x86_64-with-glibc2.39 (linux_64)
+  Python version: 3.13.12
+  CPUs number: 16
+
+Started: 2026-03-29 23:33:05
+
+Logging to /home/vanyusha/Documents/analysis-of-genomic-and-transcriptomic-data-itmo-2026-/task_1/quast_out/quast.log
+NOTICE: Maximum number of threads is set to 4 (use --threads option to set it manually)
+
+CWD: /home/vanyusha/Documents/analysis-of-genomic-and-transcriptomic-data-itmo-2026-/task_1
+Main parameters: 
+  MODE: default, threads: 4, min contig length: 500, min alignment length: 65, min alignment IDY: 95.0, \
+  ambiguity: one, min local misassembly length: 200, min extensive misassembly length: 1000
+
+Contigs:
+  Pre-processing...
+  spades_scaffolds.fasta ==> spades_scaffolds
+
+2026-03-29 23:33:05
+Running Basic statistics processor...
+  Contig files: 
+    spades_scaffolds
+  Calculating N50 and L50...
+    spades_scaffolds, N50 = 779, L50 = 1182, auN = 1351.8, Total length = 2988329, GC % = 45.92, # N's per 100 kbp =  17.37
+  Drawing Nx plot...
+    saved to /home/vanyusha/Documents/analysis-of-genomic-and-transcriptomic-data-itmo-2026-/task_1/quast_out/basic_stats/Nx_plot.pdf
+  Drawing cumulative plot...
+    saved to /home/vanyusha/Documents/analysis-of-genomic-and-transcriptomic-data-itmo-2026-/task_1/quast_out/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /home/vanyusha/Documents/analysis-of-genomic-and-transcriptomic-data-itmo-2026-/task_1/quast_out/basic_stats/GC_content_plot.pdf
+  Drawing spades_scaffolds GC content plot...
+    saved to /home/vanyusha/Documents/analysis-of-genomic-and-transcriptomic-data-itmo-2026-/task_1/quast_out/basic_stats/spades_scaffolds_GC_content_plot.pdf
+  Drawing Coverage histogram (bin size: 1x)...
+    saved to /home/vanyusha/Documents/analysis-of-genomic-and-transcriptomic-data-itmo-2026-/task_1/quast_out/basic_stats/coverage_histogram.pdf
+  Drawing spades_scaffolds coverage histogram (bin size: 1x)...
+    saved to /home/vanyusha/Documents/analysis-of-genomic-and-transcriptomic-data-itmo-2026-/task_1/quast_out/basic_stats/spades_scaffolds_coverage_histogram.pdf
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding or --glimmer option to enable it.
+
+2026-03-29 23:33:06
+Creating large visual summaries...
+This may take a while: press Ctrl-C to skip this step..
+  1 of 2: Creating PDF with all tables and plots...
+  2 of 2: Creating Icarus viewers...
+Done
+
+2026-03-29 23:33:06
+RESULTS:
+  Text versions of total report are saved to /home/vanyusha/Documents/analysis-of-genomic-and-transcriptomic-data-itmo-2026-/task_1/quast_out/report.txt, report.tsv, and report.tex
+  Text versions of transposed total report are saved to /home/vanyusha/Documents/analysis-of-genomic-and-transcriptomic-data-itmo-2026-/task_1/quast_out/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version (interactive tables and plots) is saved to /home/vanyusha/Documents/analysis-of-genomic-and-transcriptomic-data-itmo-2026-/task_1/quast_out/report.html
+  PDF version (tables and plots) is saved to /home/vanyusha/Documents/analysis-of-genomic-and-transcriptomic-data-itmo-2026-/task_1/quast_out/report.pdf
+  Icarus (contig browser) is saved to /home/vanyusha/Documents/analysis-of-genomic-and-transcriptomic-data-itmo-2026-/task_1/quast_out/icarus.html
+  Log is saved to /home/vanyusha/Documents/analysis-of-genomic-and-transcriptomic-data-itmo-2026-/task_1/quast_out/quast.log
+
+Finished: 2026-03-29 23:33:06
+Elapsed time: 0:00:01.266488
+NOTICEs: 2; WARNINGs: 0; non-fatal ERRORs: 0
+
+Thank you for using QUAST!
