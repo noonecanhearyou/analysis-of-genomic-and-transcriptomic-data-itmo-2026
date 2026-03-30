@@ -71,13 +71,14 @@ Next, the ViralVerify tool was used to clearly distinguish viral contigs from ot
 viralverify -f 3000.fa -o virver_out --hmm nbc_hmms.hmm
 ```
 ### Step 4 - BLAST
-
+[File with filtered congigs](https://github.com/noonecanhearyou/analysis-of-genomic-and-transcriptomic-data-itmo-2026/blob/main/task_1/virver_out/Prediction_results_fasta/3000_virus.fasta), containing only 4 contigs was uploaded to BLAST web application.  
 ### Step 5 - Genome annotation
 Prokka 1.14.6 on the Galaxy platform was selected for genome annotation. This version of prokka was released in early 2020, which will allow us to reproduce the conditions of the outbreak of the pandemic:
 ```bash
 prokka --cpus ${GALAXY_SLOTS:-8} --quiet --outdir outdir --prefix prokka --increment 1 --gffver 3 --mincontig 200 --kingdom Viruses --gcode 1 --evalue 1e-06 /data/dnb12/galaxy_db/files/b/f/5/dataset_bf54d5ed-7a32-436b-9583-9b06ab1b416a.dat
 ```
-As a result, a genome annotation was obtained in [.gff3](https://github.com/noonecanhearyou/analysis-of-genomic-and-transcriptomic-data-itmo-2026/blob/main/task_1/3000_first_contig_annotation.gff3) and [.genbank](https://github.com/noonecanhearyou/analysis-of-genomic-and-transcriptomic-data-itmo-2026/blob/main/task_1/3000_first_contig_annotation.genbank) formats
 ## Results
 
 ## Discussion
+
+## References
