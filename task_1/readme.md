@@ -77,7 +77,7 @@ Prokka 1.14.6 on the Galaxy platform was selected for genome annotation. This ve
 ```bash
 prokka --cpus ${GALAXY_SLOTS:-8} --quiet --outdir outdir --prefix prokka --increment 1 --gffver 3 --mincontig 200 --kingdom Viruses --gcode 1 --evalue 1e-06 /data/dnb12/galaxy_db/files/b/f/5/dataset_bf54d5ed-7a32-436b-9583-9b06ab1b416a.dat
 ```
-As a result, a [genome annotation](https://github.com/noonecanhearyou/analysis-of-genomic-and-transcriptomic-data-itmo-2026/blob/main/task_1/3000_first_contig_annotation.gff3) was obtained in .gff3 format
+As a result, a genome annotation was obtained in [.gff3](https://github.com/noonecanhearyou/analysis-of-genomic-and-transcriptomic-data-itmo-2026/blob/main/task_1/3000_first_contig_annotation.gff3) and [.genbank](https://github.com/noonecanhearyou/analysis-of-genomic-and-transcriptomic-data-itmo-2026/blob/main/task_1/3000_first_contig_annotation.genbank) formats
 ## Results
 
 ## Discussion
