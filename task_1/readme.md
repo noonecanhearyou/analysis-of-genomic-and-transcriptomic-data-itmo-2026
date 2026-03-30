@@ -73,7 +73,10 @@ viralverify -f 3000.fa -o virver_out --hmm nbc_hmms.hmm
 ### Step 4 - BLAST
 
 ### Step 5 - Genome annotation
-
+Prokka 1.14.6 on the Galaxy platform was selected for genome annotation. This version of prokka was released in early 2020, which will allow us to reproduce the conditions of the outbreak of the pandemic:
+```bash
+prokka --cpus ${GALAXY_SLOTS:-8} --quiet --outdir outdir --prefix prokka --increment 1 --gffver 3 --mincontig 200 --kingdom Viruses --gcode 1 --evalue 1e-06 /data/dnb12/galaxy_db/files/b/f/5/dataset_bf54d5ed-7a32-436b-9583-9b06ab1b416a.dat
+```
 ## Results
 
 ## Discussion
