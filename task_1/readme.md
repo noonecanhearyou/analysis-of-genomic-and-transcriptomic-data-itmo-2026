@@ -71,7 +71,7 @@ Next, the ViralVerify tool was used to clearly distinguish viral contigs from ot
 viralverify -f 3000.fa -o virver_out --hmm nbc_hmms.hmm
 ```
 ### Step 4 - BLAST
-[File with filtered congigs](https://github.com/noonecanhearyou/analysis-of-genomic-and-transcriptomic-data-itmo-2026/blob/main/task_1/virver_out/Prediction_results_fasta/3000_virus.fasta), containing only 4 contigs was uploaded to BLAST web application.  
+Sequence similarity searches were performed using BLAST via the NCBI BLAST server. [File with filtered congigs](https://github.com/noonecanhearyou/analysis-of-genomic-and-transcriptomic-data-itmo-2026/blob/main/task_1/virver_out/Prediction_results_fasta/3000_virus.fasta), containing only 4 contigs was uploaded. Contig sequences were queried against the NCBI non-redundant (nr) protein database using BLASTX. Search was limited to include viruses (taxid:10239). The best hit for each contig was selected based on the highest bit score and lowest e-value. Results were saved in [3000_virus-HitTable.csv](https://github.com/noonecanhearyou/analysis-of-genomic-and-transcriptomic-data-itmo-2026/blob/main/task_1/3000_virus-HitTable.csv) table. 
 ### Step 5 - Genome annotation
 Prokka 1.14.6 on the Galaxy platform was selected for genome annotation. This version of prokka was released in early 2020, which will allow us to reproduce the conditions of the outbreak of the pandemic:
 ```bash
