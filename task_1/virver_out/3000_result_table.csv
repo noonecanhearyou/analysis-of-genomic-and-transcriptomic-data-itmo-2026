@@ -1,0 +1,24 @@
+Contig name,Prediction,Length,Circular,Score,Pfam hits
+NODE_1_length_29907_cov_150.822528,Virus,29907,-,182.90,nsp8 NSP13 Viral_helicase1 Corona_S2 nsp9 Viral_protease Macro NSP11 AAA_30 Corona_M NAR Peptidase_C30 NSP10 nsp7 Spike_rec_bind Corona_RPol_N Corona_NSP4_C Corona_nucleoca
+NODE_2_length_8134_cov_6.182822,Chromosome,8134,-,-88.41,Ribosomal_L5_C KH_2 Ribosomal_S8 Ribosomal_L18p Ribosomal_L14 Ribosomal_L16 Ribosomal_L3 Ribosomal_L4 Ribosomal_L6 ribosomal_L24 Ribosomal_L5 Ribosomal_S17 Ribosomal_L22 Ribosomal_L29 Ribosomal_S19 Ribosomal_L2 Ribosomal_L23 Ribosomal_S3_C Ribosomal_L2_C Ribosomal_S14
+NODE_3_length_5584_cov_13759.613946,Virus,5584,-,14.31,Phage_GPA Phage_F
+NODE_4_length_5116_cov_18.119468,Chromosome,5116,-,-19.13,Ribosomal_L1 Ribosomal_L12 Ribosomal_L11_N Ribosomal_L10 Ribosomal_L12_N Ribosomal_L11
+NODE_5_length_4814_cov_12.303145,Chromosome,4814,-,-12.52,ATP-synt ATP-synt_C ATP-synt_ab_N ATP-synt_ab ATP-synt_ab_C ATP-synt_B OSCP
+NODE_6_length_4266_cov_43.850322,Chromosome,4266,-,-7.26,Ribosomal_S30AE Phage_integrase Ribosomal_S21 GTP_EFTU Phage_int_SAM_5 NusG Phage_int_SAM_4 Phage_int_SAM_1 GTP_EFTU_D3 GTP_EFTU_D2
+NODE_7_length_4074_cov_7.187140,Uncertain - viral or bacterial,4074,-,-1.96,YadA_stalk YadA_anchor
+NODE_8_length_3958_cov_4.036073,Uncertain - plasmid or chromosomal,3958,-,-3.61,Molydop_binding Molybdopterin Fer4_11 Nitrate_red_del Nitr_red_bet_C
+NODE_9_length_3842_cov_27.242963,Virus,3842,-,13.78,Viral_Rep
+NODE_10_length_3800_cov_8.261010,Uncertain - plasmid or chromosomal,3800,-,-4.92,SecA_DEAD SecA_SW SEC-C
+NODE_11_length_3791_cov_9.902262,Chromosome,3791,-,-12.56,DUF150_C DUF150 KH_5 NusA_N
+NODE_12_length_3766_cov_9.195446,Uncertain - viral or bacterial,3766,-,3.14,RNA_pol_Rpb2_7 RNA_pol_Rpb2_6
+NODE_13_length_3721_cov_21.062843,Chromosome,3721,-,-12.64,Ribosomal_S10 EFG_C GTP_EFTU EFG_IV EFG_II GTP_EFTU_D3 GTP_EFTU_D2
+NODE_14_length_3711_cov_8.323335,Chromosome,3711,-,-10.64,EKR Fer4_16 PFOR_II Fer4_7 TPP_enzyme_C POR POR_N
+NODE_15_length_3618_cov_6.273652,Uncertain - viral or bacterial,3618,-,-
+NODE_16_length_3609_cov_10.854190,Chromosome,3609,-,-12.32,CLP_protease zf-C4_ClpX ClpB_D2-small Trigger_N AAA_2 Trigger_C
+NODE_17_length_3494_cov_18.371964,Uncertain - viral or bacterial,3494,-,-
+NODE_18_length_3476_cov_26.720800,Chromosome,3476,-,-47.11,KH_2 Ribosomal_L22 ribosomal_L24 Ribosomal_S19 KOW Ribosomal_S3_C Ribosomal_L29 Ribosomal_L16 Ribosomal_L2_C Ribosomal_L14 Ribosomal_S17
+NODE_19_length_3468_cov_6.434257,Uncertain - viral or bacterial,3468,-,-
+NODE_20_length_3346_cov_4.914653,Chromosome,3346,-,-9.87,PASTA Mur_ligase Mur_ligase_C Mur_ligase_M
+NODE_21_length_3341_cov_35.065870,Virus,3341,-,13.42,Parvo_NS1
+NODE_22_length_3172_cov_5.137964,Uncertain - plasmid or chromosomal,3172,-,-0.62,Plug
+NODE_23_length_3129_cov_6.226737,Uncertain - plasmid or chromosomal,3129,-,-4.42,ABC_tran GrpE ABC_tran_Xtn
