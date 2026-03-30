@@ -88,3 +88,6 @@ The main difficulty at the initial stage was the lack of RAM for SPAdes, which p
 4. Alexey Gurevich, Vladislav Saveliev, Nikolay Vyahhi and Glenn Tesler, QUAST: quality assessment tool for genome assemblies, Bioinformatics (2013) 29 (8): 1072-1075. doi: 10.1093/bioinformatics/btt086
 5. Antipov D, Raiko M, Lapidus A, Pevzner PA. Metaviral SPAdes: assembly of viruses from metagenomic data. Bioinformatics. 2020 Aug 15;36(14):4126-4129. doi: 10.1093/bioinformatics/btaa490. PMID: 32413137
 6. Torsten Seemann, Prokka: rapid prokaryotic genome annotation, Bioinformatics, Volume 30, Issue 14, July 2014, Pages 2068–2069, https://doi.org/10.1093/bioinformatics/btu153
+7. Martin Enserink, SARS: Chronology of the Epidemic.Science339,1266-1271(2013).DOI:10.1126/science.339.6125.1266
+8. Peeri NC, Shrestha N, Rahman MS, Zaki R, Tan Z, Bibi S, Baghbanzadeh M, Aghamohammadi N, Zhang W, Haque U. The SARS, MERS and novel coronavirus (COVID-19) epidemics, the newest and biggest global health threats: what lessons have we learned? Int J Epidemiol. 2020 Jun 1;49(3):717-726. doi: 10.1093/ije/dyaa033. PMID: 32086938; PMCID: PMC7197734.
+9. Pagani I, Ghezzi S, Alberti S, Poli G, Vicenzi E. Origin and evolution of SARS-CoV-2. Eur Phys J Plus. 2023;138(2):157. doi: 10.1140/epjp/s13360-023-03719-6. Epub 2023 Feb 16. PMID: 36811098; PMCID: PMC9933829.
