@@ -82,3 +82,9 @@ prokka --cpus ${GALAXY_SLOTS:-8} --quiet --outdir outdir --prefix prokka --incre
 ## Discussion
 The main difficulty at the initial stage was the lack of RAM for SPAdes, which prevented de novo assembly of reads. Nevertheless, the use of ready-made contigs in combination with a length-filtering pipeline and ViralVerify proved sufficient to accurately isolate the viral sequence. The BLAST analysis unambiguously identified the pathogen as SARS-CoV-2, which corresponds to the clinical case described in the article. The annotation confirmed the structural organization of the virus genome, and the selected version of Prokka (1.14.6) allowed us to reproduce conditions close to the beginning of the pandemic
 ## References
+1. Wu, F., Zhao, S., Yu, B. et al. A new coronavirus associated with human respiratory disease in China. Nature 579, 265–269 (2020). https://doi.org/10.1038/s41586-020-2008-3
+2. NCBI SRA-Tools. https://github.com/ncbi/sra-tools
+3. Prjibelski, A., Antipov, D., Meleshko, D., Lapidus, A., & Korobeynikov, A. (2020). Using SPAdes de novo assembler. Current Protocols in Bioinformatics, 70, e102. doi: 10.1002/cpbi.102
+4. Alexey Gurevich, Vladislav Saveliev, Nikolay Vyahhi and Glenn Tesler, QUAST: quality assessment tool for genome assemblies, Bioinformatics (2013) 29 (8): 1072-1075. doi: 10.1093/bioinformatics/btt086
+5. Antipov D, Raiko M, Lapidus A, Pevzner PA. Metaviral SPAdes: assembly of viruses from metagenomic data. Bioinformatics. 2020 Aug 15;36(14):4126-4129. doi: 10.1093/bioinformatics/btaa490. PMID: 32413137
+6. Torsten Seemann, Prokka: rapid prokaryotic genome annotation, Bioinformatics, Volume 30, Issue 14, July 2014, Pages 2068–2069, https://doi.org/10.1093/bioinformatics/btu153
