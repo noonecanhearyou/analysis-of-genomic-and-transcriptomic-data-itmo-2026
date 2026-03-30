@@ -1,0 +1,54 @@
+# Task 1 - "How to catch the right fish: searching for viruses in sequencing data"
+## Abstract
+
+Sars-related pandemics have had an undeniable impact on both the health and social sectors. The history of SARS-related pandemics and major outbreaks is characterized by three distinct, highly pathogenic coronaviruses emerging from animal reservoirs(specifically bats) to cause global health emergencies in the 21st century:
+1. The 2002–2004 SARS Outbreak (SARS-CoV-1)
+    - Origin - The first severe and readily transmissible disease to emerge in the 21st century, SARS (Severe Acute Respiratory Syndrome) was first identified in Guangdong Province, China, in November 2002.
+    - Impact - By the time the outbreak was contained in July 2003, there were 8,096 reported cases and 774 deaths across 29 countries, resulting in a case fatality rate of nearly 10%. No cases of SARS-CoV-1 have been reported since 2004.
+2. MERS-CoV (2012–Present)
+    - Origin - The Middle East Respiratory Syndrome (MERS) was first identified in Saudi Arabia in 2012.
+    - Impact - MERS has a much higher fatality rate than SARS, with a case fatality rate around 34.4%. As of 2020, over 2,494 
+    confirmed cases and 858 deaths have been reported across 27 countries.
+3. COVID-19 Pandemic (SARS-CoV-2)
+    - Origin - In December 2019, a second strain of SARS-related coronavirus (SARS-CoV-2) was identified in Wuhan, Hubei, China.
+    - Impact - The COVID-19 pandemic has resulted in over 700 million confirmed cases and over 6.8 million deaths, making it significantly more destructive than the 2003 SARS outbreak, although with a lower individual case fatality rate.
+
+## Main
+All calculations were performed by two computers with the following components:
+- PC 1:
+    ```
+    OS: Fedora Linux 43 (KDE Plasma Desktop Edition) x86_64
+    CPU: AMD Ryzen 7 3700X (16) @ 4.4 GHz
+    GPU: AMD Radeon RX 7800 XT [Discrete]
+    Memory: 32 GiB
+    ```
+- PC 2:
+    ```
+    OS: Linux Mint 22.3 x86_64
+    CPU: AMD Ryzen 7 8845HS
+    GPU: AMD Radeon 780M
+    Memory: 32 GiB
+    ```
+
+The goal of this work is to identify the pathogen caused the clinical case, decribed in the [article](https://www.nature.com/articles/s41586-020-2008-3). Methods and calculations are based on deep meta-transcriptomic sequencing of the bronchoalveolar lavage fluid data. 
+
+The work can be logically divided into 5 steps:
+1. Genome assembly from the raw data;
+2. Collecting the QUAST-report;
+3. Identifying viral contigs;
+4. BLASTing viral contigs to figure out which one belongs to the pathogen;
+5. Annotating pathogen contig and comparing annotation with one, alailable on GenBank.
+
+### Step 1 - Genome assembly from raw data
+
+### Step 2 - Colecting QUAST-report
+
+### Step 3 - Identifying viral contigs
+
+### Step 4 - BLAST
+
+### Step 5 - Genome annotation
+
+## Results
+
+## Discussion
