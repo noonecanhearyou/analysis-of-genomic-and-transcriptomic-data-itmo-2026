@@ -66,7 +66,7 @@ To filter out contigs unsuitable for further analysis, all contigs shorter than 
 ```bash
 xargs samtools faidx spades_scaffolds.fasta > 3000.fa
 ```
-Next, the ViralVerify tool was used to clearly distinguish viral contigs from other possible contigs. Results were saved to [virver_out](https://github.com/noonecanhearyou/analysis-of-genomic-and-transcriptomic-data-itmo-2026/tree/main/task_1/virver_out) folder, the database of virus/chromosome-specific HMMs was downloaded from the [official repository](https://github.com/ablab/viralVerify):
+Next, the ViralVerify 1.1 was used to clearly distinguish viral contigs from other possible contigs. Results were saved to [virver_out](https://github.com/noonecanhearyou/analysis-of-genomic-and-transcriptomic-data-itmo-2026/tree/main/task_1/virver_out) folder, the database of virus/chromosome-specific HMMs was downloaded from the [official repository](https://github.com/ablab/viralVerify):
 ```bash
 viralverify -f 3000.fa -o virver_out --hmm nbc_hmms.hmm
 ```
