@@ -22,6 +22,7 @@ First, we received the data for further processing:
 ```bash
 wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/005/845/GCF_000005845.2_ASM584v2/GCF_000005845.2_ASM584v2_genomic.fna.gz # sequence in .fna format
 wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/005/845/GCF_000005845.2_ASM584v2/GCF_000005845.2_ASM584v2_genomic.gff.gz # annotation in .gff format
+wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/005/845/GCF_000005845.2_ASM584v2/GCF_000005845.2_ASM584v2_genomic.gbff.gz # annotation in .gbff format
 ```
 The raw sequencing data was downloaded from the resource https://figshare.com/ndownloader/articles/10006541/versions/3
 ### Step 2 - Primary inspection
