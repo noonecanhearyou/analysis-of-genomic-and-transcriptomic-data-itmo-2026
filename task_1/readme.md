@@ -88,7 +88,7 @@ After operations, explained in [Step 3](#step-3---identifying-viral-contigs), am
 
 An unusual result was also observed in the "NODE_3_length_5584_cov_13759.613946" contig. The highest match was found with Escherichia phage phiX174. However, this virus is a Enterobacteria-hosted phage that belongs to the human gut. It's impossible to find such virus in bronchoalveolar lavage fluid. After finding this contradiction, it was established that this phage is used as a positive control in illumina sequencing. 
 
-Annotation has shown nine proteins.
+Annotation has shown nine proteins. Severe Acute Respiratory Syndrome Coronavirus 2 was defined as a pathogen, caused the described [clinical case](https://www.nature.com/articles/s41586-020-2008-3).
 ## Discussion
 The main difficulty at the initial stage was the lack of RAM for SPAdes, which prevented de novo assembly of reads. Nevertheless, the use of ready-made contigs in combination with a length-filtering pipeline and ViralVerify proved sufficient to accurately isolate the viral sequence. The BLAST analysis unambiguously identified the pathogen as SARS-CoV-2, which corresponds to the clinical case described in the article. The annotation confirmed the structural organization of the virus genome, and the selected version of Prokka (1.14.6) allowed us to reproduce conditions close to the beginning of the pandemic
 ## References
