@@ -24,7 +24,11 @@ wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/005/845/GCF_000005845.2_AS
 wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/005/845/GCF_000005845.2_ASM584v2/GCF_000005845.2_ASM584v2_genomic.gff.gz # annotation in .gff format
 ```
 The raw sequencing data was downloaded from the resource https://figshare.com/ndownloader/articles/10006541/versions/3
-### Step 2 - Colecting QUAST-report
+### Step 2 - Primary inspection
+Using seqkit 2.13.0, detailed information was obtained about .fastq file:
+```bash
+seqkit stats amp_res_1.fastq
+```
 ### Step 3 - Identifying viral contigs
 ### Step 4 - BLAST
 ## Results
