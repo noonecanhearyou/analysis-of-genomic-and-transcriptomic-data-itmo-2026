@@ -82,8 +82,9 @@ Due to the fact that genome assembly from was failed because of the lack of RAM 
 
 As the result of QUAST analysis, a [report.txt](https://github.com/noonecanhearyou/analysis-of-genomic-and-transcriptomic-data-itmo-2026/blob/main/task_1/quast_out/report.txt) file was obtained. With the usage of terminal command, stings containing substrings "1000 " and "contig" were obtained: `cat quast_out/report.txt | grep 'contig' | grep '1000 '`. Output shown that only sone string fits the pattern: `# contigs (>= 1000 bp)      666`. Based on these data, it can be concluded that the assembled genome contains 666 contigs of at least 1000 base pairs in length. 
 
-After operations, explained in [Step 3](#step-3---identifying-viral-contigs), amount of potential pathogen contigs was reduced from 111219 to 4. As a result of sequence similarity search, only one contig only one contig contained proteins of a potential pathogen (fig. 1). 
+After operations, explained in [Step 3](#step-3---identifying-viral-contigs), amount of potential pathogen contigs was reduced from 111219 to 4. As a result of sequence similarity search, only one contig contained proteins of a potential pathogen (fig. 1). 
 ![Figure 1](https://github.com/noonecanhearyou/analysis-of-genomic-and-transcriptomic-data-itmo-2026/blob/main/task_1/figs/fig_1.png)
+*Figure 1 - BLAST analysis result for contig NODE_1_length_29907_cov_150.822528*
 ## Discussion
 The main difficulty at the initial stage was the lack of RAM for SPAdes, which prevented de novo assembly of reads. Nevertheless, the use of ready-made contigs in combination with a length-filtering pipeline and ViralVerify proved sufficient to accurately isolate the viral sequence. The BLAST analysis unambiguously identified the pathogen as SARS-CoV-2, which corresponds to the clinical case described in the article. The annotation confirmed the structural organization of the virus genome, and the selected version of Prokka (1.14.6) allowed us to reproduce conditions close to the beginning of the pandemic
 ## References
