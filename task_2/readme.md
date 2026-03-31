@@ -57,6 +57,19 @@ Then, alignment to the reference was performed:
 ```bash
 bwa mem GCF_000005845.2_ASM584v2_genomic.fna trimmed_forward_reading.fastq trimmed_reverse_reading.fastq > alignment.sam
 ```
+The alignment in sam format was compressed to bam using samtools 1.23.1:
+```bash
+samtools view -S -b alignment.sam > alignment.bam
+```
+Basic statistics was also collected from the alignment file:
+```bash
+samtools flagstat alignment.bam
+```
+The bam file was then sorted by sequence coordinate on reference and indexed for faster search:
+```bash
+samtools sort alignment.bam -o alignment_sorted.bam
+samtools index alignment_sorted.bam
+```
 ## Results
 ## Discussion
 ## References
