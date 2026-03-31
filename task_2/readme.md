@@ -80,6 +80,20 @@ Then, in order to see which inconsistencies are a mutation and not a sequencing 
 varscan mpileup2snp my.mpileup --min-var-freq 0.20 --variants --output-vcf 1 > VarScan_results.vcf
 ```
 min-var-freq option sets the minimum percent of non-reference bases at a position required to call it a mutation in the sample. The [varscan documentation](https://pmc.ncbi.nlm.nih.gov/articles/PMC4278659/table/T2/) says that for isolated samples, the min-var-freq should be 0.20. Values lower are applicable for samples with multiple organisms.
+### Step 6 - Variant effect prediction
+### Step 7 - SNP annotation
+A database for SnpEff 5.4.0c was created for further processing:
+```bash
+echo "k12.genome : ecoli_K12" > snpEff.config
+mkdir -p data/k12
+gunzip GCF_000005845.2_ASM584v2_genomic.gbff.gz
+cp GCF_000005845.2_ASM584v2_genomic.gbff data/k12/genes.gbk
+snpEff build -genbank -v k12
+```
+SNPs were then annotated using SnpEff:
+```bash
+snpEff ann k12 VarScan_results.vcf > VarScan_results_annotated.vcf
+```
 ## Results
 ## Discussion
 ## References
