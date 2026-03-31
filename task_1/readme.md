@@ -13,7 +13,7 @@ SARS-related pandemics have had an undeniable impact on both the health and soci
     - Impact - The COVID-19 pandemic has resulted in over 700 million confirmed cases and over 6.8 million deaths, making it significantly more destructive than the 2003 SARS outbreak, although with a lower individual case fatality rate.
 
 ## Main
-All calculations were performed by two computers with the following components:
+All calculations were performed by the following platforms:
 - PC 1:
     ```
     OS: Fedora Linux 43 (KDE Plasma Desktop Edition) x86_64
@@ -36,7 +36,7 @@ The work can be logically divided into 5 steps:
 2. Collecting the QUAST-report;
 3. Identifying viral contigs;
 4. BLASTing viral contigs to figure out which one belongs to the pathogen;
-5. Annotating pathogen contig and comparing annotation with one, alailable on GenBank.
+5. Annotating pathogen contig.
 ### Step 1 - Genome assembly from raw data
 The raw sequencing data was obtained using prefetch 3.2.1:
 ```bash
@@ -84,7 +84,11 @@ As the result of QUAST analysis, a [report.txt](https://github.com/noonecanheary
 
 After operations, explained in [Step 3](#step-3---identifying-viral-contigs), amount of potential pathogen contigs was reduced from 111219 to 4. As a result of sequence similarity search, only one contig contained proteins of a potential pathogen (fig. 1). 
 ![Figure 1](https://github.com/noonecanhearyou/analysis-of-genomic-and-transcriptomic-data-itmo-2026/blob/main/task_1/figs/fig_1.png)
-*Figure 1 - BLAST analysis result for contig NODE_1_length_29907_cov_150.822528*
+*Figure 1 - BLAST analysis result for contig NODE_1_length_29907_cov_150.822528, taxonomy report*
+
+An unusual result was also observed in the "NODE_3_length_5584_cov_13759.613946" contig. The highest match was found with Escherichia phage phiX174. However, this virus is a Enterobacteria-hosted phage that belongs to the human gut. It's impossible to find such virus in bronchoalveolar lavage fluid. After finding this contradiction, it was established that this phage is used as a positive control in illumina sequencing. 
+
+Annotation has shown nine proteins.
 ## Discussion
 The main difficulty at the initial stage was the lack of RAM for SPAdes, which prevented de novo assembly of reads. Nevertheless, the use of ready-made contigs in combination with a length-filtering pipeline and ViralVerify proved sufficient to accurately isolate the viral sequence. The BLAST analysis unambiguously identified the pathogen as SARS-CoV-2, which corresponds to the clinical case described in the article. The annotation confirmed the structural organization of the virus genome, and the selected version of Prokka (1.14.6) allowed us to reproduce conditions close to the beginning of the pandemic
 ## References
