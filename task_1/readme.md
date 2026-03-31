@@ -78,7 +78,11 @@ Prokka 1.14.6 on the Galaxy platform was selected for genome annotation. This ve
 prokka --cpus ${GALAXY_SLOTS:-8} --quiet --outdir outdir --prefix prokka --increment 1 --gffver 3 --mincontig 200 --kingdom Viruses --gcode 1 --evalue 1e-06 /data/dnb12/galaxy_db/files/b/f/5/dataset_bf54d5ed-7a32-436b-9583-9b06ab1b416a.dat
 ```
 ## Results
+Due to the fact that genome assembly from was failed because of the lack of RAM for SPAdes, it was desided to use [pre-assembled genome](https://drive.google.com/file/d/1PU6gQiF2CvxYhmWxVCWuESnG1XCZvibf/view?usp=drive_link). 
 
+As the result of QUAST analysis, a [report.txt](https://github.com/noonecanhearyou/analysis-of-genomic-and-transcriptomic-data-itmo-2026/blob/main/task_1/quast_out/report.txt) file was obtained. With the usage of terminal command, stings containing substrings "1000 " and "contig" were obtained: `cat quast_out/report.txt | grep 'contig' | grep '1000 '`. Output shown that only sone string fits the pattern: `# contigs (>= 1000 bp)      666`. Based on these data, it can be concluded that the assembled genome contains 666 contigs of at least 1000 base pairs in length. 
+
+After operations, explained in [Step 3](#step-3---identifying-viral-contigs), amount of potential pathogen contigs was reduced from 111219 to 4. As a result of 
 ## Discussion
 The main difficulty at the initial stage was the lack of RAM for SPAdes, which prevented de novo assembly of reads. Nevertheless, the use of ready-made contigs in combination with a length-filtering pipeline and ViralVerify proved sufficient to accurately isolate the viral sequence. The BLAST analysis unambiguously identified the pathogen as SARS-CoV-2, which corresponds to the clinical case described in the article. The annotation confirmed the structural organization of the virus genome, and the selected version of Prokka (1.14.6) allowed us to reproduce conditions close to the beginning of the pandemic
 ## References
