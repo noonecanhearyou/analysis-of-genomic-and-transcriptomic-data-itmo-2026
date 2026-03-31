@@ -33,8 +33,16 @@ Using FastQC 0.12.1, a report was obtained for [forward](https://github.com/noon
 ```bash
 fastqc -o . forward_reading.fastq reverse_reading.fastq
 ```
-### Step 3 - Identifying viral contigs
-### Step 4 - BLAST
+### Step 3 - Filtering the reads
+Using fastp 0.23.4, trimming was performed according to the following parameters:
+    1. Cut bases off the start of a read if quality below 20
+    2. Cut bases off the end of a read if quality below 20
+    3. Trim reads using a sliding window approach, with window size 10 and average quality within the window 20
+    4. Drop the read if it is below length 20
+```bash
+fastp -i forward_reading.fastq -I reverse_reading.fastq -o trimmed_forward_reading.fastq -O trimmed_reverse_reading.fastq -5 -3 -r -W 10 -M 20 -l 20
+```
+### Step 4 - Aligning sequences to reference
 ## Results
 ## Discussion
 ## References
