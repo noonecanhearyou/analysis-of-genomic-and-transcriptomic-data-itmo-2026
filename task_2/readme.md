@@ -70,6 +70,16 @@ The bam file was then sorted by sequence coordinate on reference and indexed for
 samtools sort alignment.bam -o alignment_sorted.bam
 samtools index alignment_sorted.bam
 ```
+### Step 5 - Variant calling
+For further work, we need to create a technical mpileup file that looks at whether each base is related to a reference or not:
+```bash
+samtools mpileup -f GCF_000005845.2_ASM584v2_genomic.fna alignment_sorted.bam >  my.mpileup
+```
+Then, in order to see which inconsistencies are a mutation and not a sequencing error, we used varscan 2.4.6:
+```bash
+varscan mpileup2snp my.mpileup --min-var-freq 0.20 --variants --output-vcf 1 > VarScan_results.vcf
+```
+min-var-freq option sets the minimum percent of non-reference bases at a position required to call it a mutation in the sample. The [varscan documentation](https://pmc.ncbi.nlm.nih.gov/articles/PMC4278659/table/T2/) says that for isolated samples, the min-var-freq should be 0.20. Values lower are applicable for samples with multiple organisms.
 ## Results
 ## Discussion
 ## References
