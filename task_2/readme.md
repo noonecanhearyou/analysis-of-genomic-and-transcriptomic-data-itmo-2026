@@ -42,6 +42,7 @@ Using fastp 0.23.4, trimming was performed according to the following parameters
 ```bash
 fastp -i forward_reading.fastq -I reverse_reading.fastq -o trimmed_forward_reading.fastq -O trimmed_reverse_reading.fastq -5 -3 -r -W 10 -M 20 -l 20
 ```
+fastp automatically shows a comparison between what was "before" and "after", so it doesn't make sense to additionally check with FastQC.
 ### Step 4 - Aligning sequences to reference
 ## Results
 ## Discussion
