@@ -42,7 +42,12 @@ Using fastp 0.23.4, trimming was performed according to the following parameters
 ```bash
 fastp -i forward_reading.fastq -I reverse_reading.fastq -o trimmed_forward_reading.fastq -O trimmed_reverse_reading.fastq -5 -3 -r -W 10 -M 20 -l 20
 ```
+Trimming was also performed with an increase in all parameters to 30:
+```bash
+fastp -i forward_reading.fastq -I reverse_reading.fastq -o 30_trimmed_forward_reading.fastq -O 30_trimmed_reverse_reading.fastq -5 -3 -r -W 10 -M 30 -l 30
+```
 fastp automatically shows a comparison between what was "before" and "after", so it doesn't make sense to additionally check with FastQC.
+The fastp reports are located in the [fastp_out directory](https://github.com/noonecanhearyou/analysis-of-genomic-and-transcriptomic-data-itmo-2026/tree/main/task_2/fastp_out)
 ### Step 4 - Aligning sequences to reference
 ## Results
 ## Discussion
