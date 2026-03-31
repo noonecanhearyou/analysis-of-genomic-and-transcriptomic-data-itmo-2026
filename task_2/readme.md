@@ -27,7 +27,11 @@ The raw sequencing data was downloaded from the resource https://figshare.com/nd
 ### Step 2 - Primary inspection
 Using seqkit 2.13.0, detailed information was obtained about .fastq file:
 ```bash
-seqkit stats amp_res_1.fastq
+seqkit stats forward_reading.fastq
+```
+Using FastQC 0.12.1, a report was obtained for [forward](https://github.com/noonecanhearyou/analysis-of-genomic-and-transcriptomic-data-itmo-2026/blob/main/task_2/forward_reading_fastqc.html) and [reverse](https://github.com/noonecanhearyou/analysis-of-genomic-and-transcriptomic-data-itmo-2026/blob/main/task_2/reverse_reading_fastqc.html) readings:
+```bash
+fastqc -o . forward_reading.fastq reverse_reading.fastq
 ```
 ### Step 3 - Identifying viral contigs
 ### Step 4 - BLAST
