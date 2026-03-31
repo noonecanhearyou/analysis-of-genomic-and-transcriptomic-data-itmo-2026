@@ -49,6 +49,14 @@ fastp -i forward_reading.fastq -I reverse_reading.fastq -o 30_trimmed_forward_re
 fastp automatically shows a comparison between what was "before" and "after", so it doesn't make sense to additionally check with FastQC.
 The fastp reports are located in the [fastp_out directory](https://github.com/noonecanhearyou/analysis-of-genomic-and-transcriptomic-data-itmo-2026/tree/main/task_2/fastp_out)
 ### Step 4 - Aligning sequences to reference
+First, an index for alignment was created using bwa 0.7.19-r1273:
+```bash
+bwa index GCF_000005845.2_ASM584v2_genomic.fna
+```
+Then, alignment to the reference was performed:
+```bash
+bwa mem GCF_000005845.2_ASM584v2_genomic.fna trimmed_forward_reading.fastq trimmed_reverse_reading.fastq > alignment.sam
+```
 ## Results
 ## Discussion
 ## References
