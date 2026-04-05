@@ -1,6 +1,5 @@
 # Task 2 - "What causes antibiotic resistance"
-## Abstract
-## Main
+## Lab Journal
 All calculations were performed by the following platforms:
 - PC 1:
     ```
@@ -95,6 +94,4 @@ SNPs were then annotated using SnpEff:
 ```bash
 snpEff ann k12 VarScan_results.vcf > VarScan_results_annotated.vcf
 ```
-## Results
-## Discussion
-## References
+
