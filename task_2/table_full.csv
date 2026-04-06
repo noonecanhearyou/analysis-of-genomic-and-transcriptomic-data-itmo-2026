@@ -1,0 +1,7 @@
+Position,Gene,Type,Impact,Protein_change
+93043,ftsI,missense_variant,MODERATE,p.Ala544Gly
+482698,acrB,missense_variant,MODERATE,p.Gln569Leu
+852762,glnH,upstream_gene_variant,MODIFIER,
+1905761,mntP,missense_variant,MODERATE,p.Gly25Asp
+3535147,envZ,missense_variant,MODERATE,p.Val241Gly
+4390754,rsgA,synonymous_variant,LOW,p.Ala252Ala
