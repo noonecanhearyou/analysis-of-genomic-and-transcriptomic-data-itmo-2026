@@ -33,3 +33,6 @@ quast scaffolds.fasta -o quast_out
 ```bash
 bakta --db /home/nochy/bakta_db/db scaffolds.fasta --output bakta_output --genus Escherichia --species coli --gram - --threads 16
 ```
+```bash
+barrnap scaffolds.fasta --kingdom bac --threads 16 --outseq 16s_rrna.fasta
+```       
