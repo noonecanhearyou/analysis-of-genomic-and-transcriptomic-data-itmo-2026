@@ -30,3 +30,6 @@ spades.py --isolate -1 forward_reading.fastq -2 reverse_reading.fastq --pacbio S
 ```bash
 quast scaffolds.fasta -o quast_out
 ```
+```bash
+bakta --db /home/nochy/bakta_db/db scaffolds.fasta --output bakta_output --genus Escherichia --species coli --gram - --threads 16
+```
