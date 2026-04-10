@@ -24,3 +24,6 @@ fastqc -o . forward_reading.fastq reverse_reading.fastq
 ```bash
 spades.py --isolate -1 forward_reading.fastq -2 reverse_reading.fastq -o spades_output -t 16 -m 32
 ```
+```bash
+quast scaffolds.fasta -o quast_out
+```
