@@ -40,7 +40,8 @@ The hybrid assembly dramatically improved contiguity compared to the Illumina‑
 
 Table 1. QUAST metrics for the two assemblies.
 
-![Figure 1. GC content of two assemblies in compare](https://github.com/noonecanhearyou/analysis-of-genomic-and-transcriptomic-data-itmo-2026/blob/main/task_3/figures/GC.png "Figure 1. GC content of two assemblies in compare")
+![Figure 1. GC content of two assemblies in compare](https://github.com/noonecanhearyou/analysis-of-genomic-and-transcriptomic-data-itmo-2026/blob/main/task_3/figures/GC.png)
+*Figure 1. GC content of two assemblies in compare*
 ### Genome annotation
 Bakta annotated 5,316,207 bp with 5,102 protein‑coding sequences, 22 rRNA genes, and 86 tRNAs. Among the rRNAs, four copies of 16S rRNA were identified (lengths 1,541–1,542 bp).
 ### Closest relative of *E. coli* X
@@ -50,6 +51,7 @@ The toxin genes were identified in the annotation:
 - **CJCOGG_03230** – Shiga toxin Stx2 subunit A (length 959 bp)
 - **CJCOGG_03231** – Shiga toxin Stx2a subunit B (length 269 bp)
 Both genes are located on a single contig. Inspection of the flanking regions (Table 2) revealed a typical prophage organisation: genes encoding a repressor (CI), Cro, antirepressor, antitermination proteins, helicase, primase, terminase subunits, major capsid protein, holin, endolysin, and tail fibre proteins. This cluster of phage‑associated genes strongly indicates that the *stx2* operon was acquired through lysogenic conversion by a bacteriophage.
+
 | Locus tag        | Product                                                       |
 |------------------|---------------------------------------------------------------|
 | CJCOGG_03218     | Repressor protein CI                                          |
