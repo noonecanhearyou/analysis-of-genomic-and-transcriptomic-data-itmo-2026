@@ -67,4 +67,16 @@ After running the script,the resulting [`gene_table.tsv`](https://github.com/noo
 grep -i -E "shiga|stx" gene_table.tsv > pathogenic_gene.tsv
 ```
 The result was saved as [`pathogenic_gene.tsv`](https://github.com/noonecanhearyou/analysis-of-genomic-and-transcriptomic-data-itmo-2026/blob/main/task_3/pathogenic_gene.tsv)
-### Step 5 - Defining the 
+### Step 5 - Antibiotic resistance detection with ResFinder
+To identify genes responsible for antibiotic resistance, the online tool [ResFinder](https://cge.food.dtu.dk/services/ResFinder/) was used. The genome assemblies of both the novel strain *E. coli X* (`long_reads_scaffolds.fasta`) and its closest reference strain (`reference.fasta`) were uploaded. For each analysis, we selected the “All” antimicrobial configuration and downloaded the results as `ResFinder_results_tab.txt`. These files were renamed to:
+- `long_reads_scaffolds_ResFinder_results_tab.txt`
+- `reference_ResFinder_results_tab.txt`
+
+To extract a clean table of resistance genes and the corresponding antibiotics, a Python script [`search_for_antibiotic_resistance.py`](https://github.com/noonecanhearyou/analysis-of-genomic-and-transcriptomic-data-itmo-2026/blob/main/task_3/search_for_antibiotic_resistance.py) was written.
+
+The script was executed separately for the outbreak strain and the reference:
+```bash
+python search_for_antibiotic_resistance.py long_reads_scaffolds_ResFinder_results_tab.txt long_reads_scaffolds_resistance.tsv
+python search_for_antibiotic_resistance.py reference_ResFinder_results_tab.txt reference_resistance.tsv
+```
+
