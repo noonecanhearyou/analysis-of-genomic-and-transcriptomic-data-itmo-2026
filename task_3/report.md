@@ -40,7 +40,7 @@ The hybrid assembly dramatically improved contiguity compared to the Illumina‑
 
 Table 1. QUAST metrics for the two assemblies.
 
-![Figure 1. GC content of two assemblies in compare](https://github.com/noonecanhearyou/analysis-of-genomic-and-transcriptomic-data-itmo-2026/blob/main/task_3/figures/GC.png)
+![Figure 1. GC content of two assemblies in compare](https://github.com/noonecanhearyou/analysis-of-genomic-and-transcriptomic-data-itmo-2026/blob/main/task_3/figures/GC.png "Figure 1. GC content of two assemblies in compare")
 ### Genome annotation
 Bakta annotated 5,316,207 bp with 5,102 protein‑coding sequences, 22 rRNA genes, and 86 tRNAs. Among the rRNAs, four copies of 16S rRNA were identified (lengths 1,541–1,542 bp).
 ### Closest relative of *E. coli* X
