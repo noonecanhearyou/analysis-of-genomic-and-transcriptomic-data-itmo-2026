@@ -1,0 +1,13 @@
+Resistance gene	Identity	Alignment Length/Gene Length	Coverage	Position in reference	Contig	Position in contig	Phenotype	Accession no.
+aph(6)-Id	100.00	837/837	100.0	1..837	NODE_4_length_605269_cov_67.914443	580235..581071	Streptomycin	M28829
+aph(3'')-Ib	100.00	804/804	100.0	1..804	NODE_4_length_605269_cov_67.914443	579432..580235	Streptomycin	AF321551
+blaTEM-1B	100.00	861/861	100.0	1..861	NODE_4_length_605269_cov_67.914443	574479..575339	Amoxicillin, Ampicillin, Cephalothin, Piperacillin, Ticarcillin	AY458016
+blaCTX-M-15	100.00	876/876	100.0	1..876	NODE_13_length_90059_cov_72.768777	63811..64686	Amoxicillin, Ampicillin, Aztreonam, Cefepime, Cefotaxime, Ceftazidime, Ceftriaxone, Piperacillin, Ticarcillin	AY044436
+blaTEM-1B	99.88	861/861	100.0	1..861	NODE_13_length_90059_cov_72.768777	60129..60989	Amoxicillin, Ampicillin, Cephalothin, Piperacillin, Ticarcillin	AY458016
+sul2	100.00	816/816	100.0	1..816	NODE_4_length_605269_cov_67.914443	578556..579371	Sulfamethoxazole	HQ840942
+sul1	100.00	761/828	91.90821256038647	1..761	NODE_4_length_605269_cov_67.914443	572462..573222	Sulfamethoxazole	AY522923
+sul1	100.00	761/840	90.5952380952381	1..761	NODE_4_length_605269_cov_67.914443	572462..573222	Sulfamethoxazole	AY115475
+sul1	100.00	761/882	86.28117913832199	1..761	NODE_4_length_605269_cov_67.914443	572462..573222	Sulfamethoxazole	DQ914960
+sul1	100.00	761/840	90.5952380952381	1..761	NODE_4_length_605269_cov_67.914443	572462..573222	Sulfamethoxazole	U12338
+tet(A)	100.00	1200/1200	100.0	1..1200	NODE_4_length_605269_cov_67.914443	591274..592473	Doxycycline, Tetracycline	AJ517790
+dfrA7	100.00	474/474	100.0	1..474	NODE_4_length_605269_cov_67.914443	571418..571891	Trimethoprim	AB161450

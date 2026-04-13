@@ -1,0 +1,2 @@
+Resistance gene	Identity	Alignment Length/Gene Length	Coverage	Position in reference	Contig	Position in contig	Phenotype	Accession no.
+tet(B)	100.00	1206/1206	100.0	1..1206	NC_011748.1 Escherichia coli 55989, complete sequence	4974055..4975260	Doxycycline, Tetracycline, Minocycline	AF326777

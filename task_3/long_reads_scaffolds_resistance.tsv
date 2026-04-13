@@ -1,0 +1,9 @@
+Gene	Antibiotics
+aph(3'')-Ib	Streptomycin
+aph(6)-Id	Streptomycin
+blaCTX-M-15	Amoxicillin, Ampicillin, Aztreonam, Cefepime, Cefotaxime, Ceftazidime, Ceftriaxone, Piperacillin, Ticarcillin
+blaTEM-1B	Amoxicillin, Ampicillin, Cephalothin, Piperacillin, Ticarcillin
+dfrA7	Trimethoprim
+sul1	Sulfamethoxazole
+sul2	Sulfamethoxazole
+tet(A)	Doxycycline, Tetracycline
