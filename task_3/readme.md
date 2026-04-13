@@ -26,13 +26,17 @@ Then, using SPAdes 4.2.0, the genome was assembled from the raw sequencing data:
 ```bash
 spades.py --isolate -1 forward_reading.fastq -2 reverse_reading.fastq -o spades_output -t 16 -m 32
 ```
+File scffolds.fasta from the output directory was transfered to main project directory.
+
 The genome was also assembled using a long-read library SRR1980037:
 ```bash
 spades.py --isolate -1 forward_reading.fastq -2 reverse_reading.fastq --pacbio SRR1980037.fastq -o long_reads_spades_output -t 16 -m 32
 ```
-Then the quality of both builds was checked using QUAST 5.3.0:
+File `scffolds.fasta` from the output directory was renaimed to `long_reads_scafoflds.fasta` transfered to main project directory.
+
+Then the quality of both builds in comparison was checked using QUAST 5.3.0:
 ```bash
-quast scaffolds.fasta -o quast_out
+quast.py long_reads_scaffolds.fasta scaffolds.fasta -o quast_comparison
 ```
 Further steps of work were carried out with the assembly with a long-read library due to the better quality.
 ### Step 3 - Genome annotation
@@ -45,3 +49,14 @@ Barrnap 1.10.5 was also used to find rRNAs from the genomic assembly:
 barrnap scaffolds.fasta --kingdom bac --threads 16 --outseq 16s_rrna.fasta
 ```       
 Then, using a text editor, only those contigues that belong to 16s rRNA were left.
+### Step 4 - BLAST 16s rRNA
+File with 16s rRNA scaffolds ('16s_rrna_scaffolds.fasta') was uploaded to BLAST via the NCBI BLAST server. 
+
+Folowing settings were set:
+- Database: Reference Genome Database
+- Organism: Escherichia coli
+- Entrez Query: 1900/01/01:2011/01/01[PDAT]
+Other settings were set to default.
+
+The closest relative to unknown strain is *Escherichia coli 55989*. Genome the found stain was saved as a `reference.fasta` and used as a refence genome for further research.
+### Step 4 - 
