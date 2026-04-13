@@ -1,0 +1,22 @@
+Assembly	long_reads_scaffolds	scaffolds
+# contigs (>= 0 bp)	281	885
+# contigs (>= 1000 bp)	19	125
+# contigs (>= 5000 bp)	17	82
+# contigs (>= 10000 bp)	17	70
+# contigs (>= 25000 bp)	17	53
+# contigs (>= 50000 bp)	15	33
+Total length (>= 0 bp)	5476866	5365668
+Total length (>= 1000 bp)	5429008	5227232
+Total length (>= 5000 bp)	5424589	5107296
+Total length (>= 10000 bp)	5424589	5023931
+Total length (>= 25000 bp)	5424589	4749031
+Total length (>= 50000 bp)	5362414	4012943
+# contigs	36	170
+Largest contig	922653	300784
+Total length	5440635	5258597
+GC (%)	50.60	50.51
+N50	605269	114227
+N75	300272	55266
+L50	4	15
+L75	7	32
+# N's per 100 kbp	57.02	30.58
