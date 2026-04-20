@@ -26,7 +26,7 @@ The peptides were then processed using the previously created database:
 diamond blastp -d diamond_db.dmnd -q proteins.fa -f 6 -o diamond_output --very-sensitive
 ```
 The results turned out to be incorrect, because, as it turned out later, diamond does not work well with short sequences.
-### Step 2 - blastp
+### Step 2 - The second attempt
 The toolkit was changed to blastp 2.16.0 and the same work steps were completed:
 ```bash
 makeblastdb -in proteins.fa -dbtype prot  -out task4_db  
@@ -42,6 +42,10 @@ The sequences of these proteins were also obtained using seqtk 1.5:
 ```bash
 seqtk subseq proteins.fa sorted_proteins.txt > working_sequence.fa
 ```
-### Step 3 - Genome annotation
-
-### Step 4 - BLAST 16s rRNA
+### Step 3 - Subcellular localization
+WoLF PSORT and TargetP were used to predict subcellular localization
+### Step 4 - blast
+blastp was used to search for homologous proteins
+### Step 5 - HMMER
+The web version of HMMER was used to search for proteins by collection of profile-HMMs.
+[Result](https://www.ebi.ac.uk/Tools/hmmer/results/2ea15112-2c06-48fc-abb4-75b5e22f85de/score)
