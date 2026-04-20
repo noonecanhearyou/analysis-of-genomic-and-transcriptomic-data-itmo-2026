@@ -26,8 +26,14 @@ The peptides were then processed using the previously created database:
 diamond blastp -d diamond_db.dmnd -q proteins.fa -f 6 -o diamond_output --very-sensitive
 ```
 The results turned out to be incorrect, because, as it turned out later, diamond does not work well with short sequences.
-### Step 2 - 
-
+### Step 2 - blastp
+The toolkit was changed to blastp 2.16.0 and the same work steps were completed:
+```bash
+makeblastdb -in peptides.fa -dbtype prot  -out task4_db  
+```
+```bash
+blastp -db task4_db -query proteins.fa -outfmt 6 -out blastp
+```
 ### Step 3 - Genome annotation
 
 ### Step 4 - BLAST 16s rRNA
