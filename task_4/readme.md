@@ -16,7 +16,7 @@ All calculations were performed by the following platforms:
     Memory: 32 GiB
     ```
 Both Linux computers have Desktop Environment, so basic operations such as moving files between directories, unzipping archives, and so on were performed not using the command line, but using built-in solutions for the corresponding Desktop Environments.
-### Step 1 - 
+### Step 1 - The first attempt
 First, using diamond 2.1.24, a protein database was created for further work:
 ```bash
 diamond makedb --in peptides.fa --db diamond_db
@@ -25,6 +25,7 @@ The peptides were then processed using the previously created database:
 ```bash
 diamond blastp -d diamond_db.dmnd -q proteins.fa -f 6 -o diamond_output --very-sensitive
 ```
+The results turned out to be incorrect, because, as it turned out later, diamond does not work well with short sequences.
 ### Step 2 - 
 
 ### Step 3 - Genome annotation
