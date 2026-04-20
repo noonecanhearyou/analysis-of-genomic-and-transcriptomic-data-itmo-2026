@@ -17,9 +17,11 @@ All calculations were performed by the following platforms:
     ```
 Both Linux computers have Desktop Environment, so basic operations such as moving files between directories, unzipping archives, and so on were performed not using the command line, but using built-in solutions for the corresponding Desktop Environments.
 ### Step 1 - 
+First, using diamond 2.1.24, a protein database was created for further work:
 ```bash
 diamond makedb --in peptides.fa --db diamond_db
 ```
+The peptides were then processed using the previously created database:
 ```bash
 diamond blastp -d diamond_db.dmnd -q proteins.fa -f 6 -o diamond_output --very-sensitive
 ```
