@@ -29,10 +29,18 @@ The results turned out to be incorrect, because, as it turned out later, diamond
 ### Step 2 - blastp
 The toolkit was changed to blastp 2.16.0 and the same work steps were completed:
 ```bash
-makeblastdb -in peptides.fa -dbtype prot  -out task4_db  
+makeblastdb -in proteins.fa -dbtype prot  -out task4_db  
 ```
 ```bash
-blastp -db task4_db -query proteins.fa -outfmt 6 -out blastp
+blastp -db task4_db -query peptides.fa -outfmt 6 -out blastp.txt
+```
+Then the repetitive ones were deleted from the whole protein file:
+```bash
+awk '{print $2}' blastp.txt | sort | uniq > sorted_proteins.txt
+```
+The sequences of these proteins were also obtained using seqtk 1.5:
+```bash
+seqtk subseq proteins.fa sorted_proteins.txt > working_sequence.fa
 ```
 ### Step 3 - Genome annotation
 
