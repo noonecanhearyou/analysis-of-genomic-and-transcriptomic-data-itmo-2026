@@ -43,13 +43,14 @@ The sequences of these proteins were also obtained using seqtk 1.5:
 seqtk subseq proteins.fa sorted_proteins.txt > working_sequence.fa
 ```
 ### Step 3 - Subcellular localization
-WoLF PSORT and TargetP were used to predict subcellular localization
+Web-version of WoLF PSORT was used to predict subcellular localization of proteins
 
 [WoLF Result](https://github.com/noonecanhearyou/analysis-of-genomic-and-transcriptomic-data-itmo-2026/blob/main/task_4/WoLF_PSORT_output.txt)
+Web-version of TargetP was used to confirm the presence of signaling and mitochondrial peptides
 
 [TargetP Result](https://github.com/noonecanhearyou/analysis-of-genomic-and-transcriptomic-data-itmo-2026/blob/main/task_4/targetp_output.txt)
 ### Step 4 - blast
-blastp was used to search for homologous proteins
+blastp with UniProtKB/Swiss-Prot database was used to search for homologous proteins
 
 [blastp result](https://github.com/noonecanhearyou/analysis-of-genomic-and-transcriptomic-data-itmo-2026/blob/main/task_4/blast_output.txt)
 ### Step 5 - HMMER
