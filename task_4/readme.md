@@ -50,6 +50,9 @@ WoLF PSORT and TargetP were used to predict subcellular localization
 [TargetP Result](https://github.com/noonecanhearyou/analysis-of-genomic-and-transcriptomic-data-itmo-2026/blob/main/task_4/targetp_output.txt)
 ### Step 4 - blast
 blastp was used to search for homologous proteins
+
+[blastp result](https://github.com/noonecanhearyou/analysis-of-genomic-and-transcriptomic-data-itmo-2026/blob/main/task_4/blast_output.txt)
 ### Step 5 - HMMER
 The web version of HMMER was used to search for proteins by collection of profile-HMMs.
-[Result](https://www.ebi.ac.uk/Tools/hmmer/results/2ea15112-2c06-48fc-abb4-75b5e22f85de/score)
+
+[HMMER result](https://www.ebi.ac.uk/Tools/hmmer/results/2ea15112-2c06-48fc-abb4-75b5e22f85de/score)
