@@ -3,10 +3,10 @@
 All calculations were performed by the following platform:
 
 ```
-    OS: macOS 15.7.2
-    CPU: Apple M3
-    GPU: Apple M3
-    Memory: 16 GiB
+OS: macOS 15.7.2
+CPU: Apple M3
+GPU: Apple M3
+Memory: 16 GiB
 ```
 ### Step 1 - The first attempt
 First, using diamond 2.1.24, a protein database was created for further work:
