@@ -1,6 +1,6 @@
 # Task 4 - "Tardigrades: from genestealers to space marines "
 ## Lab Journal
-All calculations were performed by the following platform:
+All local calculations were performed by the following platform:
 
 ```
 OS: macOS 15.7.2
