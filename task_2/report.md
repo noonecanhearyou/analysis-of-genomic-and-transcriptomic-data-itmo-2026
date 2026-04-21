@@ -1,4 +1,5 @@
 # Genomic Analysis of Ampicillin Resistance Mechanisms in Escherichia coli
+Ivan Uglov, Eugene Fedorov
 
 ## Abstract
 Antibiotic resistance poses a significant threat to modern healthcare. In this study, whole-genome sequencing data of an ampicillin-resistant *Escherichia coli* strain were analyzed to identify mutations responsible for resistance. A bioinformatics pipeline including quality control, trimming, alignment, variant calling, and annotation was applied. Several mutations affecting protein-coding genes (*ftsI*, *acrB*, *envZ*, *mntP*) were identified. These genes are associated with antibiotic target modification, efflux activity, and membrane permeability. The results suggest a multifactorial resistance mechanism and provide insights for alternative treatment strategies.
