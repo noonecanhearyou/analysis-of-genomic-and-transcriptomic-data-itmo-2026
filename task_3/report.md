@@ -1,3 +1,14 @@
+<style>
+  code {
+    font-family: 'Fira Code', 'Consolas', monospace !important;;
+    color: #427a01 !important;
+  }
+  pre {
+    background-color: #1e1e1e !important;
+    color: #d4d4d4 !important;
+  }
+</style>
+
 # De novo assembly and annotation of the 2011 German outbreak *E. coli* X genome reveals a prophage‑encoded Shiga toxin and multidrug resistance
 Ivan Uglov, Eugene Fedorov
 
