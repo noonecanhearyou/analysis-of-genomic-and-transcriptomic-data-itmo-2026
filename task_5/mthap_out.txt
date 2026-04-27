@@ -1,0 +1,148 @@
+mthap version 0.19c (2023-08-15); haplogroup data version PhyloTree Build 17 (2016-02-18) +mods
+raw data source SNP_raw_v4_Full_20170514175358.txt (14MB)
+
+Found 3270 markers at 3268 positions covering 19.7% of mtDNA.
+
+Markers found (shown as differences to rCRS):
+
+HVR2: 152C 263G
+CR: 750G 1438G 4769G 8860G
+HVR1:
+
+IMPORTANT NOTE: The above marker list is almost certainly incomplete due to limitations of genotyping technology and is not comparable to mtDNA sequencing results. It should not be used with services or tools that expect sequencing results, such as mitosearch.
+
+Best mtDNA Haplogroup Matches:
+
+1) H(T152C)
+
+Defining Markers for haplogroup H(T152C):
+HVR2: 152C 263G
+CR: 750G 1438G 4769G 8860G 15326G
+HVR1:
+
+Marker path from rCRS to haplogroup H(T152C):
+H2a2a1(rCRS) ⇨ 263G ⇨ H2a2a ⇨ 8860G 15326G ⇨ H2a2 ⇨ 750G ⇨ H2a ⇨ 4769G ⇨ H2 ⇨ 1438G ⇨ H ⇨ 152C ⇨ H(T152C)
+
+Imperfect Match. Your results contained differences with this haplogroup:
+Matches(6): 152C 263G 750G 1438G 4769G 8860G
+Untested(1): 15326
+
+2) H1(T152C)
+
+Defining Markers for haplogroup H1(T152C):
+HVR2: 152C 263G
+CR: 750G 1438G 3010A 4769G 8860G 15326G
+HVR1:
+
+Marker path from rCRS to haplogroup H1(T152C):
+H2a2a1(rCRS) ⇨ 263G ⇨ H2a2a ⇨ 8860G 15326G ⇨ H2a2 ⇨ 750G ⇨ H2a ⇨ 4769G ⇨ H2 ⇨ 1438G ⇨ H ⇨ 3010A ⇨ H1 ⇨ 152C ⇨ H1(T152C)
+
+Imperfect Match. Your results contained differences with this haplogroup:
+Matches(6): 152C 263G 750G 1438G 4769G 8860G
+No-Calls(1): 3010A
+Untested(1): 15326
+
+3) H
+
+Defining Markers for haplogroup H:
+HVR2: 263G
+CR: 750G 1438G 4769G 8860G 15326G
+HVR1:
+
+Marker path from rCRS to haplogroup H (plus extra markers):
+H2a2a1(rCRS) ⇨ 263G ⇨ H2a2a ⇨ 8860G 15326G ⇨ H2a2 ⇨ 750G ⇨ H2a ⇨ 4769G ⇨ H2 ⇨ 1438G ⇨ H ⇨ 152C
+
+Imperfect Match. Your results contained differences with this haplogroup:
+Matches(5): 263G 750G 1438G 4769G 8860G
+Extras(1): 152C
+Untested(1): 15326
+
+3) H46
+
+Defining Markers for haplogroup H46:
+HVR2: 152C 263G
+CR: 750G 1438G 2772T 4769G 8860G 15326G
+HVR1:
+
+Marker path from rCRS to haplogroup H46:
+H2a2a1(rCRS) ⇨ 263G ⇨ H2a2a ⇨ 8860G 15326G ⇨ H2a2 ⇨ 750G ⇨ H2a ⇨ 4769G ⇨ H2 ⇨ 1438G ⇨ H ⇨ 152C ⇨ H(T152C) ⇨ 2772T ⇨ H46
+
+Imperfect Match. Your results contained differences with this haplogroup:
+Matches(6): 152C 263G 750G 1438G 4769G 8860G
+Mismatches(1): 2772C
+Untested(1): 15326
+
+3) H3(T152C)
+
+Defining Markers for haplogroup H3(T152C):
+HVR2: 152C 263G
+CR: 750G 1438G 4769G 6776C 8860G 15326G
+HVR1:
+
+Marker path from rCRS to haplogroup H3(T152C):
+H2a2a1(rCRS) ⇨ 263G ⇨ H2a2a ⇨ 8860G 15326G ⇨ H2a2 ⇨ 750G ⇨ H2a ⇨ 4769G ⇨ H2 ⇨ 1438G ⇨ H ⇨ 6776C ⇨ H3 ⇨ 152C ⇨ H3(T152C)
+
+Imperfect Match. Your results contained differences with this haplogroup:
+Matches(6): 152C 263G 750G 1438G 4769G 8860G
+Mismatches(1): 6776T
+Untested(1): 15326
+
+3) H16(T152C)
+
+Defining Markers for haplogroup H16(T152C):
+HVR2: 152C 263G
+CR: 750G 1438G 4769G 8860G 10394T 15326G
+HVR1:
+
+Marker path from rCRS to haplogroup H16(T152C):
+H2a2a1(rCRS) ⇨ 263G ⇨ H2a2a ⇨ 8860G 15326G ⇨ H2a2 ⇨ 750G ⇨ H2a ⇨ 4769G ⇨ H2 ⇨ 1438G ⇨ H ⇨ 10394T ⇨ H16 ⇨ 152C ⇨ H16(T152C)
+
+Imperfect Match. Your results contained differences with this haplogroup:
+Matches(6): 152C 263G 750G 1438G 4769G 8860G
+Mismatches(1): 10394C
+Untested(1): 15326
+
+3) H69
+
+Defining Markers for haplogroup H69:
+HVR2: 152C 263G
+CR: 750G 1438G 4646C 4769G 8860G 15326G
+HVR1:
+
+Marker path from rCRS to haplogroup H69:
+H2a2a1(rCRS) ⇨ 263G ⇨ H2a2a ⇨ 8860G 15326G ⇨ H2a2 ⇨ 750G ⇨ H2a ⇨ 4769G ⇨ H2 ⇨ 1438G ⇨ H ⇨ 152C ⇨ H(T152C) ⇨ 4646C ⇨ H69
+
+Imperfect Match. Your results contained differences with this haplogroup:
+Matches(6): 152C 263G 750G 1438G 4769G 8860G
+Mismatches(1): 4646T
+Untested(1): 15326
+
+3) H9
+
+Defining Markers for haplogroup H9:
+HVR2: 152C 263G
+CR: 750G 1438G 4769G 8860G 13020C 15326G
+HVR1:
+
+Marker path from rCRS to haplogroup H9:
+H2a2a1(rCRS) ⇨ 263G ⇨ H2a2a ⇨ 8860G 15326G ⇨ H2a2 ⇨ 750G ⇨ H2a ⇨ 4769G ⇨ H2 ⇨ 1438G ⇨ H ⇨ 152C ⇨ H(T152C) ⇨ 13020C ⇨ H9
+
+Imperfect Match. Your results contained differences with this haplogroup:
+Matches(6): 152C 263G 750G 1438G 4769G 8860G
+Mismatches(1): 13020T
+Untested(1): 15326
+
+3) H52
+
+Defining Markers for haplogroup H52:
+HVR2: 152C 263G
+CR: 750G 1438G 4769G 8860G 14220G 15326G
+HVR1:
+
+Marker path from rCRS to haplogroup H52:
+H2a2a1(rCRS) ⇨ 263G ⇨ H2a2a ⇨ 8860G 15326G ⇨ H2a2 ⇨ 750G ⇨ H2a ⇨ 4769G ⇨ H2 ⇨ 1438G ⇨ H ⇨ 152C ⇨ H(T152C) ⇨ 14220G ⇨ H52
+
+Imperfect Match. Your results contained differences with this haplogroup:
+Matches(6): 152C 263G 750G 1438G 4769G 8860G
+Mismatches(1): 14220A
+Untested(1): 15326 
