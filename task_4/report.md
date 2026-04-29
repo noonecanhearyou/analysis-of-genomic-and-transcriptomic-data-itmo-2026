@@ -1,7 +1,7 @@
 <style>
   code {
     font-family: 'Fira Code', 'Consolas', monospace !important;;
-    color: #d4d4d4 !important;
+    color: #427a01 !important;
   }
   pre {
     background-color: #1e1e1e !important;
